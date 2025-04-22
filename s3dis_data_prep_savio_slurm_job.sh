@@ -15,7 +15,7 @@
 #SBATCH --cpus-per-task=1
 #
 # Wall clock limit:
-#SBATCH --time=00:00:30
+#SBATCH --time=01:00:00
 #
 ## Command(s) to run (example):
 python3 data/s3dis/prepare_data.py -d "/global/scratch/users/ethanchen/Stanford3dDataset_v1.2_Aligned_Version" -f "/global/scratch/users/ethanchen/"
